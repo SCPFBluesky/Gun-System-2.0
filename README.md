@@ -1,4 +1,4 @@
-## Bloop's gun system 2.0
+## Bloop's gun system 3.0
 ## A Fast and reliable and heavily optimized gun system styled after site-19
 
 ## 🤔 Why?
