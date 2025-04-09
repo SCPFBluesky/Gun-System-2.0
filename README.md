@@ -17,4 +17,3 @@ The gun system only contains 3 Scripts:
 * FirearmHandler - The server side script responsible for gun security, GetGC protection, damage handling and informing other clients (Players) to create effects.
 
 All scripts are beautifully type-annotated :)
-## 🌠 Features
