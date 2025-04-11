@@ -12,6 +12,12 @@
 local FirearmClass = {};
 FirearmClass.__index = FirearmClass;
 
+local game, workspace = game, workspace;
+local clock = os.clock;
+
+local debug = debug;
+local IsA = game.IsA;
+
 local Players = game:GetService("Players");
 local Player = Players.LocalPlayer;
 
@@ -47,11 +53,7 @@ local Sync: () -> () = task.synchronize;
 local Actor: Actor = script:GetActor();
 local Wrap: <A..., R...>((A...) -> (R...)) -> (A...) -> (R...) = coroutine.wrap;
 
-local game, workspace = game, workspace;
-local clock = os.clock;
 
-local debug = debug;
-local IsA = game.IsA;
 
 local function Effects(Gun: any, HitObject: Instance, HitPos: Vector3, FireSound: number) : ()
 	assert(Gun);
