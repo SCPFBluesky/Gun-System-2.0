@@ -281,9 +281,6 @@ function FirearmClass:Shoot()
 		if (FinalResult and FinalResult.Instance and FinalResult.Position) then
 			HitInstance = FinalResult.Instance;
 			Pos = FinalResult.Position;
-		else
-			HitInstance = nil;
-			Pos = nil;
 		end;
 		
 		Wrap(function()
